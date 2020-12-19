@@ -3,8 +3,7 @@
 
 
 <!-- #region -->
-- Created a predictive policing tool that predicts monthly number of crimes for a specific type of crime at LSOA geographical level to help law enforcement for effectively allocating crime prevention resources.
-
+- Created a predictive policing tool that predicts monthly number of crimes for a specific type of crime at LSOA geographical level to help law enforcement efficiently allocating crime prevention resources.
 
 - Scraped data from various resources for feature engineering  
 
