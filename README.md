@@ -11,7 +11,7 @@
 - Created a cross-validation class which splits data into train and test on the basis of date and target encoders that encode each level of categorical column with corresponding target mean calculated by the past target values using the time-based cross-validation class. 
 
 
-- Optimised and Compared Linear, Polynomial, Lasso, Random Forest, and Gradient Boosted Trees using GridSearchCV to find the best model. 
+- Optimised and compared Linear, Polynomial, Lasso, Random Forest, and Gradient Boosted Trees using GridSearchCV to find the best model. 
 
 
 - Built a web application using Flask to deploy the model.
@@ -44,7 +44,7 @@ The data is collected from various resources:
 - Shapefile of LSOA within West Midlands Policing areas: https://borders.ukdataservice.ac.uk/bds.html 
 
 
-- Monthly Average temperature from 2017-11 to 2020-10 in West Midlands (web scraping):
+- Monthly average temperature from 2017-11 to 2020-10 in West Midlands (web scraping):
 https://www.timeanddate.com/weather/uk/birmingham/
 
 
