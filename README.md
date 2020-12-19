@@ -1,6 +1,6 @@
 # Forecasting Monthly Crimes in West Midlands Policing Areas 
 ## Project Overview
-***
+
 
 <!-- #region -->
 - Created a predictive policing tool that predicts monthly number of crimes for a specific type of crime at LSOA geographical level to help law enforcement for effectively allocating crime prevention resources.
@@ -20,7 +20,7 @@
 
 <!-- #region -->
 ## Code and Resources Used
-***
+
 
 **Python Version:** 3.8
 
@@ -36,7 +36,7 @@
 
 <!-- #region -->
 ## Data Collection
-***
+
 The data is collected from various resources:
 
 - Monthly street-level crime, broken down by type, LSOA: https://data.police.uk/data/
@@ -64,7 +64,7 @@ https://stat-xplore.dwp.gov.uk/webapi/jsf/login.xhtml?invalidSession=true&reason
 
 <!-- #region -->
 ## Data Cleaning
-***
+
 After collecting the data, in order to combine and prepare the data for modelling, the following changes were made:
 
 - Removed crime records that were not occurred within West Midlands Policing areas
@@ -96,7 +96,7 @@ After collecting the data, in order to combine and prepare the data for modellin
 <!-- #endregion -->
 
 ## EDA
-***
+
 Some notable findings are:
 
 - Some changes in crime trend has been observed from March 2020 onwards due to Covid-19 pandemic and lockdown
@@ -119,7 +119,7 @@ Some notable findings are:
 
 <!-- #region -->
 ## Model Building
-***
+
 ### Time-based Cross-Validation
 This project aims to mimic real world scenarios in which the predictive model is trained over some period and then applied to predict on the upcoming period data. Thus the train/test splits were made by the method called **forward-chaining**. Using this method, each month was considered successively as the test set and assign all previous months into the training set.
 
@@ -154,7 +154,7 @@ The models that were considered:
 
 <!-- #region -->
 ## Model Performance
-***
+
 The Random Forest and Gradient Boosted Trees were found to be better model than other models. 
 
 - Gradient Boosted Trees : MAE = 0.8327629853921195
@@ -170,11 +170,10 @@ The Random Forest and Gradient Boosted Trees were found to be better model than 
 
 **The final model**
 
-- Gradient Boosted Tree : MAE = 0.8141224744495286
+- Gradient Boosted Trees : MAE = 0.8141224744495286
 <!-- #endregion -->
 
 ## Productionisation
-***
 
 The final model was deployed as a web application where users can input variables such as a crime type and a location of their interest to get the predicted number of crimes for a given month. The web application was built using Flask and deployed to an online platform for public access. 
 
