@@ -5,7 +5,7 @@
 <!-- #region -->
 - Created a predictive policing tool that predicts monthly number of crimes for a specific type of crime at LSOA geographical level to help law enforcement efficiently allocating crime prevention resources.
 
-- Scraped data from various resources for feature engineering  
+- Scraped data from various resources for feature engineering.
 
 
 - Created a cross-validation class which splits data into train and test on the basis of date and target encoders that encode each level of categorical column with corresponding target mean calculated by the past target values using the time-based cross-validation class. 
