@@ -72,7 +72,7 @@ After collecting the data, in order to combine and prepare the data for modellin
 - Removed columns that were not relevant or providing duplicate information (e.g. 'Reported by', 'LSOA code')
 
 
-- Aggregated crime records by grouping crime records by Date, LSOA and type of crime and counting the number of occurrences per group which created a new column 'Total'
+- Aggregated crime records by grouping crime records by date, LSOA and type of crime and counting the number of occurrences per group which created a new column 'Total'
 
 
 - Added rows of groups of crime records that are possible but not observed and indicated there was no occurrence by 'Total' = 0
