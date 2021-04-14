@@ -174,6 +174,6 @@ The Random Forest and Gradient Boosted Trees were found to be better model than 
 
 ## Productionisation
 
-The final model was deployed as a web application where users can input variables such as crime type and location of their interest to get the predicted number of crimes for a given month. The web application was built using Flask and deployed to an online platform for public access. 
+The final model was deployed as a web application where users can input values to variables such as crime type and location of their interest to get the predicted number of crimes for a given month. The web application was built using Flask and deployed to an online platform for public access. 
 
 **The crime prediction model is accessible via https://crime-prediction-model.herokuapp.com**
